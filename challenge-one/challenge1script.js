@@ -6,7 +6,7 @@ let studentMarks = window.prompt("Enter your marks (value should be from 0 - 100
 function tellMarksAndGrade(studentMarks){
     // Conditional statement if value is ranging from 0 - 100
     if(studentMarks >= 0 && studentMarks <= 100){
-        // Nested conditional statement for if the user has entered a value ranging from (0-100)
+        // Nested conditional statement for if the user has entered a value ranging from (0-100) which alerts to the user the grade and range
         if(studentMarks < 40){
             window.alert(`E > less 40`)
         } else if(studentMarks >= 40 && studentMarks < 50){
@@ -27,5 +27,5 @@ function tellMarksAndGrade(studentMarks){
     document.write("Reload to get a new output value")
 }
 
-// Invoking of the tellMarksAndGrade whereby it returns the marks and range and outputs the info to the user
+// Invoking of the tellMarksAndGrade whereby it returns the marks and range and outputs the info to the user or the alternate info if the user has not inserted a value from(0-100)
 tellMarksAndGrade(studentMarks)
