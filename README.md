@@ -40,6 +40,7 @@ How to Run
 5.Finally reload the website to check for different results if the salary taxation.
 
 Author: Richard Kimani
+Collaborator: Joseph Mbugua
 License: GNU General Public License (GPL)
 
 
